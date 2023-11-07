@@ -31,7 +31,7 @@ const ExpenseForm = ({getData}) => {
             date: new Date(userInput.enteredDate),
             id:Math.floor().toString(),
         };
-        getData(userInput);
+        getData(exp);
   };
   return (
     <form onSubmit={submitHandler}>
